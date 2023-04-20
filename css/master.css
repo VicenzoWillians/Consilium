@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@100;300;400;500;600;700;800;900&display=swap');
+
+@media (max-width: 1024px) {
+    .bg-img {
+        height: 123vh !important;
+    }
+
+    .mission-img {
+        display: none;
+    }
+
+    .clients-background {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .bg-img {
+        height: 67vh !important;
+    }
+
+    .mission-img{
+        width: 565px !important;
+        height: 720px !important;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Crimson Pro', sans-serif;
+}
+
+.title-hr {
+    border-top: 6px solid #fad02c;
+    margin-top: -0.50rem !important;
+    margin: auto;
+    width: 215px;
+    opacity: 1;
+}
+
+/* Background and Images */
+.light-blue-background {
+    background-color: #90adc6;
+}
+
+.bg-img {
+    height: 79.5vh;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.mission-img {
+    width: 645px;
+    height: 630px;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+/* Fonts */
+.font-yellow {
+    color: #fad02c !important;
+}
+
+.font-light-blue {
+    color: #90adc6 !important;
+}
+
+.font-dark-blue {
+    color: #333652 !important;
+}
+
+a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fad02c !important;
+}
+
+
+/* Buttons */
+.btn {
+    border-radius: initial;
+}
+
+.btn-outline-warning {
+    color: #fad02c;
+}
+
+/* icons */
+.fa-size {
+    font-size: 4em;
+    line-height: .03125em;
+    vertical-align: -0.1875em;
+}
+
+.clients {
+    width: 100px;
+}
+
+.clients-2x {
+    width: 200px;
+    height: 200px;
+}
+
+/* Maps */
+.mapa {
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.iframe-map {
+    width: 100%;
+    height: 100vh;
+    border: 0;
+    margin-top: -150px;
+}
+
+/* Footer */
+
+.social-media:hover {
+    color: #fad02c !important;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer; 
+    padding: 20px;
+    border-radius: 30px;
+}
+
+
+/* Staff */
+.card-transform{
+    transition: all 0.5s ease-in-out;
+}
+
+.card-img-overlay {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.card-transform:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale3d(1.05, 1.05, 1.05); 
+}
+
+.card-img-overlay:hover{
+    background-color: black;
+    opacity: 0.7;
+}
